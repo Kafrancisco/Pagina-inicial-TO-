@@ -4,6 +4,7 @@
    
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
  }
 
 
@@ -50,13 +51,6 @@ align-items: center;
 
 
 
-.envio{
-    background-color: #25316D;
-    color: white;
-    text-align: center;
-    padding: 15px 10px; 
-    font-weight: bold;
-    font-family: Century Gothic; }
 
 
 .nav-menu li{    background-color: #25316D;
@@ -77,9 +71,52 @@ border-color: #25316D;
     border-radius: 20px;
 }
 
-.caja1{
-    width: 70px;
-    height: 200px;
-    background-color: aqua;
-    float: left;
-}
+.pieDePagina .seccion2{
+    background-color: #BFBDBC;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+    }
+    
+    .pieDePagina .seccion1{
+        display: flex;
+        background-color: #D5D2D1;
+    }
+    
+    .pieDePagina .box1{
+        margin: 0 30px;
+        order: 0;
+    }
+    
+    .pieDePagina .box2{
+        margin: 0 30px;
+        order: 1;
+    }
+    
+    .pieDePagina .box3{
+        margin: 0 30px;
+        order: 2;
+    }
+    
+    .box1 .logo{
+       align-self: center;
+       padding: 10px;
+    
+    }
+    
+    .envio{
+        background-color: #25316D;
+        color: white;
+        text-align: center;
+        padding: 15px 10px; 
+        font-weight: bold;
+        font-family: Century Gothic; 
+    
+    }
+    
+    .qc{
+        color: black;
+     font-family: Century Gothic; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+    }
+    
+    
