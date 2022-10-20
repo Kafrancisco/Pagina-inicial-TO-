@@ -118,5 +118,43 @@ border-color: #25316D;
         color: black;
      font-family: Century Gothic; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
     }
+  
+    
+   
+
+
+.slider{
+    width: 75 vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    width: calc(300px*8);
+    -webkit-animation: scroll 40s linear infinite;
+
+}
+
+.slider.slider {
+    width: 300px;
+}
+
+.slider.slide img {
+    width: 300px;
+}
+
+@keyframes scroll {
+    
+ 0%{   -webkit-transform: translateX(0);
+    transform: translateX (0); 
+}
+  
+
     
     
+ 100% {-webkit-transform: translateX(calc (-300px * 4));
+transform: translateX (calc (-300px * 4)); }
+ }

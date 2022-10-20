@@ -1,0 +1,14 @@
+<div class="contenedor-carrusel">
+        <div class="tarjetacarrusel"> 
+            A
+        </div>
+
+            <div class="flechas-carrusel">
+                <i>I
+
+                </i>
+                <i>D</i>
+
+            
+        </div>
+     </div>

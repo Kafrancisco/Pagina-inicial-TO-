@@ -1,0 +1,45 @@
+<div class="contenedor">
+        
+            <img src="/imagenes/1.jpeg" alt="">
+            <img src="/imagenes/2.jpeg" alt="">
+            <img src="/imagenes/3.jpeg" alt="">
+            <img src="/imagenes/4.jpeg" alt="">
+            <img src="/imagenes/5.jpeg" alt="">
+            <img src="/imagenes/6.jpeg" alt="">
+           <img src="/imagenes/7.jpeg" alt="">
+           <img src="/imagenes/8.jpeg" alt="">
+            <img src="/imagenes/9.jpeg" alt="">
+            <img src="/imagenes/10.jpeg" alt="">
+            <img src="/imagenes/11.jpeg" alt="">
+            <img src="/imagenes/12.jpeg" alt="">
+            <img src="/imagenes/13.jpeg" alt="">
+            <img src="/imagenes/14.jpeg" alt="">
+            <img src="/imagenes/15.jpeg" alt="">
+            <img src="/imagenes/16.jpeg" alt="">
+
+
+
+
+        
+</div> 
+    
+
+    .contenedor {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contenedor img{
+    
+        width: 20%;
+        height: 300px;
+        margin: 5px;
+        box-shadow: white;
+        border: solid 2px;
+        border-color:#092327;
+        flex: auto;
+    }
+
+"p4tr0nvs"
