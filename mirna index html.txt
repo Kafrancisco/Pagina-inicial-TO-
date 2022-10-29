@@ -6,7 +6,7 @@
               <meta charset="UTF-8">
               <meta http-equiv="X-UA-Compatible" content="IE=edge">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <link rel="stylesheet" href="estilos.css">
+              <link rel="stylesheet" href="style.css">
               <script src="https://kit.fontawesome.com/6c63904138.js" crossorigin="anonymous"></script>
               
               <title>Pagina de inicio</title>
@@ -25,14 +25,7 @@
                               <li><a href="index.html"> Inicio</a> </li>
                               <li><a href="carteras.html"> Carteras</a> </li>
                              <li><a href="cinturones.html"> Cinturones</a> </li>
-                            
-                              <li><a href="Checkout QC.html">  
-                                <i class="fa-solid fa-cart-shopping"></i></a> </li>
-                                <li> <a href="contactos.html">
-                                    <i class="fa-solid fa-user"></i>
-                                </a></li>
-                           
-                             
+                             <li><a href="contactos.html"> Contactos</a> </li>
                              
                           </ul>
                       </nav>
@@ -90,9 +83,22 @@
                         </div>
                     </div>
                     <div class="box2">
-                       
+                        <h4>Ayuda</h4>
                         <!--links a otras paginas-->
-                        
+                        <ul>
+                            <li>
+                                <a href="http://">Contacto</a>
+                            </li>
+                            <li>
+                                <a href="http://">Local</a>
+                            </li>
+                            <li>
+                                <a href="http://">Terminos y condiciones</a>
+                            </li>
+                            <li>
+                                <a href="http://">Medios de envio</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="box3">
                         <h4>Siguenos</h4>
